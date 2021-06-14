@@ -12,6 +12,6 @@ RUN apt-get install npm -y
 
 RUN mkdir -p /tmp/build
 
-ADD CA2/Part2/build/libs/demo-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
+ADD build/libs/demo-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
